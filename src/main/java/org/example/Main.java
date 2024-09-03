@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.answer.CentimeterKilometer;
 import org.example.answer.ConvertTemp;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -10,6 +11,10 @@ public class Main {
 
 
         System.out.println(test1.getCelcius());
+
+        CentimeterKilometer test2 = new CentimeterKilometer(3403402);
+
+        System.out.println(test2.getKilometer());
 
     }
 }
