@@ -2,7 +2,6 @@ package org.example.answer;
 
 public class ConvertTemp {
 
-
     double fahrenheit;
     double celcius;
 
