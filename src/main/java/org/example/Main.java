@@ -3,6 +3,7 @@ package org.example;
 import org.example.answer.CentimeterKilometer;
 import org.example.answer.ConvertTemp;
 import org.example.answer.OddEven;
+import org.example.answer.SearchString;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -19,6 +20,10 @@ public class Main {
 
         OddEven test3 = new OddEven(5);
         System.out.println(test3.isOdd());
+
+        SearchString test4= new SearchString("Ayam Kokok");
+
+        System.out.println(test4.removeString("ko"));
 
     }
 }
