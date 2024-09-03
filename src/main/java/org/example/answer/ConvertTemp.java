@@ -20,4 +20,5 @@ public class ConvertTemp {
         this.celcius = (this.fahrenheit-32) *5/9;
         return celcius;
     }
+
 }
