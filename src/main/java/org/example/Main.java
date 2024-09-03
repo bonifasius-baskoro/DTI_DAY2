@@ -1,6 +1,7 @@
 package org.example;
 
 
+
 import org.example.answer.CentimeterKilometer;
 
 import org.example.answer.ConvertTemp;
@@ -26,6 +27,10 @@ public class Main {
 
         System.out.println(test2.getKilometer());
 
+
+        CentimeterKilometer test2 = new CentimeterKilometer(3403402);
+
+        System.out.println(test2.getKilometer());
 
     }
 }
